@@ -1,0 +1,142 @@
+[
+ {
+  "bases":[
+  	{"base":"MDP","x":0,"y":40},
+	{"base":"VG","x":-10,"y":320},
+	{"base":"MDA","x":930,"y":315},
+	{"base":"NECO","x":510,"y":320},
+	{"base":"INTER","x":50,"y":40}
+	]
+ },
+ {
+  "leyendas":[
+   {"base":"MDA","leyenda":"MAR DE AJO","y1":20,"x1":80,"font":5,"color":"celeste"},
+   {"base":"VG","leyenda":"VILLA GESELL","y1":20,"x1":195,"font":5,"color":"celeste"},
+   {"base":"NECO","leyenda":"NECOCHEA","y1":20,"x1":80,"font":5,"color":"celeste"},
+   {"base":"MDP","leyenda":"MAR DEL PLATA","y1":10,"x1":140,"font":5,"color":"celeste"},
+   {"base":"INTER","leyenda":"INTERCONEXIONES","y1":20,"x1":790,"font":3,"color":"grismedio"},
+   {"base":"INTER","leyenda":"Olavarria_Barker:","y1":45,"x1":800,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"Olavarria_Tandil:","y1":65,"x1":800,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"Necochea_Chavez:","y1":85,"x1":800,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"Chascomus_Dolores:","y1":105,"x1":800,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"TENSIONES","y1":130,"x1":790,"font":3,"color":"grismedio"},
+   {"base":"INTER","leyenda":"Olavarria:","y1":150,"x1":805,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"Tandil:","y1":170,"x1":805,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"Chavez:","y1":190,"x1":805,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"Chascomus A:","y1":210,"x1":805,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"Chascomus B:","y1":230,"x1":805,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"COMBUSTIBLE","y1":20,"x1":1005,"font":3,"color":"grismedio"},
+   {"base":"INTER","leyenda":"TK01 Mar de Ajo:","y1":45,"x1":1010,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"TK02 Mar de Ajo:","y1":65,"x1":1010,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"TK01 V. Gesell:","y1":85,"x1":1010,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"TK02 V. Gesell:","y1":105,"x1":1010,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"TK03 V. Gesell:","y1":125,"x1":1010,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"PRESIONES GAS","y1":150,"x1":1005,"font":3,"color":"grismedio"},
+   {"base":"INTER","leyenda":"Mar del Plata:","y1":170,"x1":1010,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"Necochea:","y1":190,"x1":1010,"font":2,"color":"celeste"},
+   {"base":"INTER","leyenda":"V Gesell:","y1":210,"x1":1010,"font":2,"color":"celeste"}
+   ]
+ },
+ {"barrastension":[
+	{"base":"MDA","x1":50,"y1":45,"x2":270,"y2":45,"color":"verde","grosor":3,"id":"A","puntero":"MAJO_132_BARRA1_V"},
+	{"base":"MDA","x1":50,"y1":100,"x2":270,"y2":100,"color":"naranja","grosor":3,"id":"A","puntero":"BAR132Mj"},
+	{"base":"VG","x1":60,"y1":45,"x2":440,"y2":45,"color":"verde","grosor":3,"id":"A","puntero":"Z4_V_TRFTG18Vg"},
+	{"base":"VG","x1":60,"y1":100,"x2":210,"y2":100,"color":"naranja","grosor":3,"id":"A","puntero":"P_VG_TRF2Vg"},
+	{"base":"VG","x1":230,"y1":100,"x2":330,"y2":100,"color":"naranja","grosor":3,"id":"A","puntero":"Q_VG_TRF2Vg"},
+	{"base":"VG","x1":350,"y1":100,"x2":440,"y2":100,"color":"naranja","grosor":3,"id":"A","puntero":"Z4_VTG18Vg"},
+	{"base":"NECO","x1":20,"y1":40,"x2":400,"y2":40,"color":"verde","grosor":3,"id":"A","puntero":"TENS_ANe"},
+	{"base":"NECO","x1":20,"y1":70,"x2":400,"y2":70,"color":"verde","grosor":3,"id":"B","puntero":"TENS_BNe"},
+	{"base":"MDP","x1":50,"y1":40,"x2":760,"y2":40,"color":"verde","grosor":3,"id":"A","puntero":"9J_V1329J"}
+	]	
+},
+{
+  "acoplamientobarra":[
+	{"base":"NECO","cx":30,"cy":70,"seccionador_a":"SEC_B_TV1Ne","seccionador_b":"SEC_A_TV1Ne"},
+	{"base":"NECO","cx":120,"cy":70,"seccionador_a":"SEC_B_TV2Ne","seccionador_b":"SEC_A_TV2Ne"},
+	{"base":"NECO","cx":210,"cy":70,"seccionador_a":"SEC_B_TV3Ne","seccionador_b":"SEC_A_TV3Ne"},
+	{"base":"NECO","cx":300,"cy":70,"seccionador_a":"SEC_B_TV4Ne","seccionador_b":"SEC_A_TV4Ne"}
+	]
+},{
+  "lineas":[
+   {"base":"MDP","grosor":3,"x1":500,"y1":96,"x2":615,"y2":96,"color":"naranja"}
+   ]
+ },
+ {
+  "trafosimples":[
+   {"base":"MDA","cx":150,"cy":45},
+   {"base":"VG","cx":130,"cy":44},
+   {"base":"VG","cx":260,"cy":44},
+   {"base":"VG","cx":380,"cy":44},
+   {"base":"MDP","cx":560,"cy":40}
+   ]
+ },
+ {
+  "semicampos":[
+   {"interruptor":"INT_TG15Mj","base":"MDA","v3":"V_TG15Mj","v2":"Q_TG15Mj","v1":"P_TG15Mj","cartel":"TG15","cy":100,"cx":105,"color":"naranja","grosor":1},
+   {"interruptor":"INT_TG17Mj","base":"MDA","v3":"V_TG17Mj","v2":"Q_TG17Mj","v1":"P_TG17Mj","cartel":"TG17","cy":100,"cx":205,"color":"naranja","grosor":1},
+   {"interruptor":"INT_TG11Vg","base":"VG","v3":"V_TG11Vg","v2":"Q_TG11Vg","v1":"P_TG11Vg","cartel":"TG11","cy":100,"cx":100,"color":"naranja","grosor":1},
+   {"interruptor":"INT_TG16Vg","base":"VG","v3":"V_TG16Vg","v2":"Q_TG16Vg","v1":"P_TG16Vg","cartel":"TG16","cy":100,"cx":185,"color":"naranja","grosor":1},
+   {"interruptor":"INT_AC_33Vg","base":"VG","v3":"BAR132Vg","v2":"Q_VG_PINAVg","v1":"P_VG_PINAVg","cartel":"TG14","cy":100,"cx":260,"color":"naranja","grosor":1},
+   {"interruptor":"Z_INT_TG18Vg","base":"VG","v3":"Z4_VTG18Vg","v2":"Z4_QTG18Vg","v1":"Z4_PTG18Vg","cartel":"TG18","cy":100,"cx":380,"color":"naranja","grosor":1},
+   {"interruptor":"INT_TG199J","base":"MDP","v3":"","v2":"Q_TG199J","v1":"P_TG199J","cartel":"TG19","cy":95,"cx":520,"color":"naranja","grosor":1},
+   {"interruptor":"INT_TG209J","base":"MDP","v3":"","v2":"Q_TG209J","v1":"P_TG209J","cartel":"TG20","cy":95,"cx":595,"color":"naranja","grosor":1}
+   ]
+ },
+ {
+  "valores":[
+   {"unidad":"m3","base":"INTER","y":45,"x":1115,"id_valor":"Q_PINAMj"},
+   {"unidad":"m3","base":"INTER","y":65,"x":1115,"id_valor":"P_TRAFO2Mj"},
+   {"unidad":"m3","base":"INTER","y":85,"x":1115,"id_valor":"Z4_TK4001Vg"},
+   {"unidad":"m3","base":"INTER","y":105,"x":1115,"id_valor":"Z4_TK4002Vg"},   
+   {"unidad":"m3","base":"INTER","y":125,"x":1115,"id_valor":"Z4_TK4003Vg"},   
+   {"unidad":"kg/cm2","base":"INTER","y":170,"x":1100,"id_valor":"9J_PGAS9J"},
+   {"unidad":"kg/cm2","base":"INTER","y":190,"x":1100,"id_valor":"G_PLAGASNe"},
+   {"unidad":"Bar","base":"INTER","y":210,"x":1100,"id_valor":"Z4_Pre_GaToVg"},
+   {"unidad":"A","base":"NECO","y":275,"x":22,"id_valor":"TV1EXCNe"},
+   {"unidad":"A","base":"NECO","y":275,"x":115,"id_valor":"TV2EXCNe"},
+   {"unidad":"A","base":"NECO","y":275,"x":205,"id_valor":"TV3EXCNe"},
+   {"unidad":"A","base":"NECO","y":275,"x":295,"id_valor":"TV4EXCNe"},
+   {"unidad":"A","base":"MDP","y":206,"x":45,"id_valor":"TV7EXC9J"},
+   {"unidad":"A","base":"MDP","y":206,"x":120,"id_valor":"TV8EXC9J"},
+   {"unidad":"A","base":"MDP","y":232,"x":265,"id_valor":"TG12EXC9J"},
+   {"unidad":"A","base":"MDP","y":232,"x":340,"id_valor":"TG13EXC9J"},
+   {"unidad":"A","base":"MDP","y":232,"x":415,"id_valor":"TG21EXC9J"},
+   {"unidad":"A","base":"MDP","y":213,"x":495,"id_valor":"TG19EXC9J"},
+   {"unidad":"A","base":"MDP","y":213,"x":570,"id_valor":"TG20EXC9J"}
+   ]
+ },{
+  "camposcompletosA":[
+    {"base":"NECO","cx":50,"cy":108,"v1":"P_TV1Ne","v2":"Q_TV1Ne","Cartel":"TV1","Interruptor":"INT_TRFTV1Ne"},
+    {"base":"NECO","cx":140,"cy":108,"v1":"P_TV2Ne","v2":"Q_TV2Ne","Cartel":"TV2","Interruptor":"INT_TRFTV2Ne"},
+    {"base":"NECO","cx":230,"cy":108,"v1":"P_TV3Ne","v2":"Q_TV3Ne","Cartel":"TV3","Interruptor":"INT_TRFTV3Ne"},
+    {"base":"NECO","cx":320,"cy":108,"v1":"P_TV4Ne","v2":"Q_TV4Ne","Cartel":"TV4","Interruptor":"INT_TRFTV4Ne"},
+    {"base":"MDP","cx":70,"cy":40,"v1":"P_TV79J","v2":"Q_TV79J","Cartel":"TV7","Interruptor":"INT_TRF79J"},
+    {"base":"MDP","cx":145,"cy":40,"v1":"P_TV89J","v2":"Q_TV89J","Cartel":"TV8","Interruptor":"INT_TRF89J"}
+    ]
+ },{
+  "camposcompletosB":[
+	{"base":"MDP", "cx":290,"cy":40,"v1":"P_TG129J","v2":"Q_TG129J","Cartel":"TG12","Interruptor1":"INT_TRF129J","Interruptor2":"INT_TG129J"},
+	{"base":"MDP", "cx":365,"cy":40,"v1":"P_TG139J","v2":"Q_TG139J","Cartel":"TG13","Interruptor1":"INT_TRF139J","Interruptor2":"INT_TG139J"},
+	{"base":"MDP", "cx":440,"cy":40,"v1":"P_TG219J","v2":"Q_TG219J","Cartel":"TG21","Interruptor1":"INT_TRF219J","Interruptor2":"INT_TG219J"},
+	{"base":"MDP", "cx":220,"cy":40,"v1":"P_9J_PUE19J","v2":"Q_9J_PUE19J","Cartel":"TG22","Interruptor1":"Z1_INT_TRF229J","Interruptor2":"Z1_INT_TG229J"},
+	{"base":"MDP", "cx":680,"cy":77,"v1":"G1_11kv_pai","v2":"G1_11kv_pri","Cartel":"TG23","Interruptor1":"INT_GSU1","Interruptor2":"INT_TG1"},
+	{"base":"MDP", "cx":755,"cy":77,"v1":"G2_11kv_pai","v2":"G2_11kv_pri","Cartel":"TG24","Interruptor1":"INT_GSU2","Interruptor2":"INT_TG2"}
+	]
+},{
+  "seccionadores":[
+	{"base":"MDP", "cx":680,"cy":40,"Seccionador":"SEC_LINEA"}
+	]
+},{
+  "valores_blc":[
+	{"base":"INTER","Cx":925,"Cy":43,"unidad":"MW","puntero":"OLAV_132_BARKER2_P"},
+	{"base":"INTER","Cx":925,"Cy":63,"unidad":"MW","puntero":"OLAV_132_TANDIL_P"},
+	{"base":"INTER","Cx":925,"Cy":83,"unidad":"MW","puntero":"NECO_132_GCHAVES_P"},
+	{"base":"INTER","Cx":925,"Cy":103,"unidad":"MW","puntero":"CHAS_132_DOLORES_P"},
+	{"base":"INTER","Cx":895,"Cy":150,"unidad":"KV","puntero":"OLAV_132_BARRA2_V"},
+	{"base":"INTER","Cx":895,"Cy":170,"unidad":"KV","puntero":"TAND_132_BARRA1_V"},
+	{"base":"INTER","Cx":895,"Cy":190,"unidad":"KV","puntero":"CHAV_132_BARRA1_V"},
+	{"base":"INTER","Cx":895,"Cy":210,"unidad":"KV","puntero":"CHAS_132_BARRA1_V"},
+	{"base":"INTER","Cx":895,"Cy":230,"unidad":"KV","puntero":"CHAS_132_BARRA2_V"}
+	]
+}
+]

@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+		color:#000000;
+/*		background-color:#1E1E1E;*/
+		background-color:#c0c0c0;
+		font-family: Arial, Helvetica, sans-serif;
+
+		margin: 0;
+		padding: 0.25em;
+		background: #fff;
+	}
+	
+	form {
+/*		border: 1px solid #202020;*/
+		padding: 0.5em;
+		background: #EEE;
+	}
+	
+	hr {
+		clear: both;
+		visibility: hidden;
+		margin: 0;
+		padding: 0;
+	}
+	
+	/* essential */
+	label {
+/*		float: left;  */
+		width: 6em;
+		text-align: right;
+		padding-right: 0.5em;
+		padding-bottom: 5px;
+	}
+	
+	input, textarea {
+		text-align: left;
+		width: 20em;
+	}
+	
+	input.submit {
+		margin-left: 6.5em;
+		width: auto;
+		text-align: center;
+	}
+	
+	/* additionally give the button and the labels
+	the same font to align the button better */
+	
+	label, input.submit {
+		font: normal 0.8em Verdana, Geneva, Arial, Helvetica, sans-serif;
+	}
+
+	
+	img {
+		vertical-align: bottom;
+	}
+	img:hover, img:focus {
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+	.columnI {
+	  float: left;
+	  width: 66.66%;
+	  padding: 10px;
+	  text-align: left;
+/*	  color: white;*/
+	}
+	.columnD {
+	  float: left;
+	  width: 30%;
+	  padding: 10px;
+	  text-align: left;
+/*	  color: white;*/
+	}
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+/******************
+	table-SHOW 
+******************/
+.show {
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.show th {
+	border-bottom: 1px solid black;
+	/* height: 20px; */
+	padding: 5px;
+	/*font: normal 0.8em Verdana, Geneva, Arial, Helvetica, sans-serif; */
+
+}
+.show td {
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid #ddd;
+	font: normal 0.8em Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+.show tr:hover {background-color:#f5f5f5;}
+
+/**********************
+	  Varios         
+**********************/
+	.flex-container {
+	  display: flex;
+	  flex-wrap: nowrap;
+	}
+	
+	.login {
+	  margin: 1rem;
+	  padding: 1rem;
+	  border: 2px solid #ccc;
+	  /* IMPORTANTE */
+	  text-align: center;
+	}
+	
+	.formgroup{
+	  margin: 0.5rem;
+	  padding: 0.5rem;
+	}
+	
+
+	div.dibujo{
+		color:#F0F0F0;
+		background-color:#1E1E1E;		
+	}
+	
+/*******************
+**   Form Modal    *
+*******************/	
+	/* The Modal (background) */
+	.modal {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Stay in place */
+		
+	  z-index: 1; /* Sit on top */
+	  padding-top: 0px; /* Location of the box */
+/*	  left: 50px;
+	  top: 0;
+*/
+  	  left: 60%;
+	  top: 10%;
+
+	  width: 25%; /* Full width */
+	  height: 45%; /* Full height */
+	  overflow: auto; /* Enable scroll if needed */
+	  background-color: rgb(0,0,0); /* Fallback color */
+	  background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+	}
+	
+	/* Modal Content */
+	.modal-content {
+/*	  position:absolute;	*/
+
+/*	  color:#A0A0A0; 
+/*
+	  background-color: #202020;
+	  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+	  margin: auto;
+	  padding: 0px;
+/*	  border: 1px solid #ffffff;	*/
+	  width: 90%;
+	  overflow:auto;
+	  overflow-style:marquee-line;
+	}
+/*	
+	form.form-modal {
+		border: none;
+		padding: 0.25em;
+		background: none; /* rgba(0,0,0,0.3);
+		color:#F0F0F0;
+	}
+*/
+	/* The Close Button */
+	.close {
+	  color: #aaa;
+	  float: right;
+	  font-size: 32px;
+	  font-weight: bold;
+	}
+	
+	.close:hover,
+	.close:focus {
+	  color: #fff;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+	
+	.div-bott25 {
+	  margin-bottom: 5px;
+	  /* float:left; */
+	  margin-right:10px;
+	}
